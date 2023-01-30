@@ -35,7 +35,7 @@ const Photos = ({ form, setCurrentStep }) => {
         <div className='w-[103px] bg-[#D3D3D3] h-[1px]'></div>
 
         <div className='flex justify-center items-center space-x-2'>
-          <div className='h-[32px] w-[32px] rounded-full  bg-gray-300 border-solid border-[1px] flex justify-center items-center'>
+          <div className='h-[32px] w-[32px] rounded-full  border-gray-300 border-solid border-[1px] flex justify-center items-center'>
             <h1 className='text-gray-300'>2</h1>
           </div>
           <div className='text-sm text-gray-400'>
@@ -63,8 +63,8 @@ const Photos = ({ form, setCurrentStep }) => {
         className='relative w-[23.125rem] h-[8.3125rem] mx-auto items-center justify-center mt-4 border-dashed border-[1px] outline-none rounded-md'
         onClick={() => uploadImage()}
       >
-        <input type='image' ref={fileRef} />
-        <img src={image} alt='' className='mx-auto' />
+        {/* <input type='image' ref={fileRef} /> */}
+        <img src={image} alt='' className='mx-auto mt-8' />
         <p className='text-center mt-2'>Drop or Upload an image here</p>
       </div>
       <div className='flex space-x-4 mt-12 mx-auto'>
