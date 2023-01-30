@@ -14,7 +14,7 @@ import { useState } from 'react'
 
 const amenities = [
   { id: 1, name: 'Swimming pool', image: '/assets/swimmer.png' },
-  { id: 2, name: 'Television Set', image: '/assets/tv.svg' },
+  { id: 2, name: 'Television Set', image: '/assets/Tv.svg' },
   { id: 3, name: 'Security', image: '/assets/security.svg' },
   { id: 4, name: 'Garden', image: '/assets/bar.svg' },
   { id: 5, name: 'Air Conditioner', image: '/assets/air.svg' },
